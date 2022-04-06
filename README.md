@@ -1,2 +1,4 @@
-# mlw
-Disciplina de Marcação e Layout Web do Instituto Federal de São Paulo, campus Birigui
+# Marcação e Layout Web
+
+Disciplina ministrada por Cassio Sterssi no Instituto Federal de São Paulo, campus Birigui.
+Aqui serão colocados os projetos feitos durante a aula.
