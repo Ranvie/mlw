@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mapeamento</title>
+    </head>
+    <body>
+        
+        <h1>Mapeamento de Imagens</h1>
+        <p>Permite criar áreas nas imagens para tornar-se link</p>
+
+        <figure>
+            <img src="img/rs.jpg" alt="Imagem contendo diversas redes sociais" usemap="#mapeamento">
+        </figure>
+
+        <map name="mapeamento">
+
+            <area shape="rect" coords="2, 110, 171, 284" href="https://facebook.com" alt="Facebook" target="_blank">
+            <area shape="circle" coords="995, 193, 60" href="https://web.whatsapp.com/" alt="Whatsapp" target="_blank">
+            <area shape="poly" coords="229,150,313,199,229,248" href="https://youtube.com" alt="Youtube" target="_blank">
+
+        </map>
+
+    </body>
+
+</html>
