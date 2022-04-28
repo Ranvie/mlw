@@ -1,0 +1,27 @@
+h1{
+    color: rgb(0, 225, 255);
+    background-color: black;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    background-color: aquamarine;
+}
+
+#titulo{
+    color: #9999;
+}
+
+#paragrafo{
+    background-color: #6786ce;
+}
+
+.titulo_classe{
+    color: yellow;
+    background-color: black;
+}
+
+.paragrafo_classe{
+    color: white;
+    background-color: blue;
+}
