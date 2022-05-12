@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto Livraria</title>
+
+        <link rel="stylesheet" href="../css/estilo.css">
+        <link rel="javascript" href="../js/script.js">
+
+    </head>
+
+    <body>
+        
+        <form method="post" action="#">
+
+            <legend>Contate-nos</legend>
+
+            <div>
+                <label>Nome</label>
+                <input type="text">
+            </div>
+            
+            <div>
+                <label>Email</label>
+                <input type="email" placeholder="xxxxx@xxx.xxx" required>
+            </div>
+
+            <div>
+                <label>Telefone</label>
+                <input type="tel" placeholder="(xx) xxxxx-xxxx">
+            </div>
+            
+            <div>
+                <label>Assunto</label>
+                <select>
+                    <option selected disabled>--</option>
+                    <option>Trocas</option>
+                    <option>Atendimento</option>
+                    <option>Comercial</option>
+                    <option>Outros</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Mensagem</label>
+                <textarea placeholder="Ex: Adorei o conteúdo!" required></textarea>
+            </div>
+            
+            <div>
+                <label>Deseja receber informações sobre a Livraria John e Paul?</label>
+                <input type="checkbox" id="sim" name="receber_informacoes" value="sim">
+            </div>
+            
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Resetar">
+            </div>
+
+        </form>
+
+    </body>
+
+</html>
