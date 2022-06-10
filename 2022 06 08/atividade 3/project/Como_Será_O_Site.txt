@@ -1,0 +1,12 @@
+A página conterá menus?
+R: Dois laterais um abaixo do outro
+
+Quantos links esses menus terão?
+R: Lateral de cima: Categorias
+   Lateral de baixo: Mais notícias
+
+Onde eles vão ficar?
+R: Imagem rascunho.png
+
+O logo será na esquerda ou na direita?
+R: Topo esquerdo da página
